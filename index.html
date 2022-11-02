@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="textanimations.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ferdinand Warmink Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Side Vanbar-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#wiebenik">Wie ben ik</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <input onclick="changeLanguage('eng')" type="image" src="img/english.png" class="changelanguage" name="dutch" id="saveForm" />
+      <input onclick="changeLanguage('nl')" type="image" src="img/dutch.png" class="changelanguage" name="dutch" id="saveForm" />
+
+    </div>
+    
+    <div id="main">
+      <span class="menubutton" style="cursor:pointer" onclick="openNav()"><img src="img/menu.png" alt=""> </span>
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+    <!--Wie ben ik-->
+      <div class="div1background" id="wiebenik">
+        <div class="div">
+          <img src="img/placeholder.jpg" class="introimg img img-fluid" alt="Responsive image">
+        </div>
+        <div class="div2">
+          <h1 id="whoAmI">Who am I?</h1>
+          <p id="whoAmIContent">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius dignissimos ullam maiores nobis ipsum nesciunt placeat, culpa ipsam adipisci delectus cupiditate porro pariatur. Error neque quo animi beatae, eligendi voluptatem?
+          </p>
+        </div>
+      </div>
+      <!--Portfolio-->
+
+      <div class="portfoliodiv1" id="portfolio">
+        <h1 class="ml7 centered">
+          <span class="text-wrapper">
+            My Portfolio
+          </span>
+        </h1>
+        <img class="portfolioimg" src="img/Gameplay_AmbitieCut.jpg" alt="">
+      </div>
+
+
+      <div class="ambitieproject projects">
+        <div>
+          <h1>Ambitieproject</h1>
+        </div>
+        <hr>
+        <div class="ambitievideo">
+          <video width="760" height="420" controls>
+            <source src="video/Ambitieproject_Video.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+        <div class="movetext2">
+          <div class="ambitietext">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nobis similique ipsum doloribus commodi fuga omnis unde earum voluptatum voluptate, molestias incidunt maiores illum nostrum cumque autem eos, tempora alias.</p>
+          </div>
+        </div>
+        <div><img src="img/EnemyMovement_Code_Ambitie.png" alt=""></div>
+        <div class="ambitietext2move">
+          <div class="ambitietext2 ">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo possimus doloribus, repellendus atque rerum porro quo, eum soluta voluptas quidem maiores harum laborum sequi perspiciatis aperiam, iure earum. Cumque, dignissimos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ambitieproject shineproject projects">
+        <hr>
+        <div>
+          <h1>Shineproject</h1>
+        </div>
+        <hr>
+        <div class="shinevideo">
+          <video width="700" height="330" controls>
+            <source src="video/Shineproject.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+        <div class="movetext">
+          <div class="ambitietext shinetext">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nobis similique ipsum doloribus commodi fuga omnis unde earum voluptatum voluptate, molestias incidunt maiores illum nostrum cumque autem eos, tempora alias.</p>
+          </div>
+        </div>
+        <div><img src="img/EnemyPathing_Code_Shine.png" alt=""></div>
+        <div class="shinetext2">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo possimus doloribus, repellendus atque rerum porro quo, eum soluta voluptas quidem maiores harum laborum sequi perspiciatis aperiam, iure earum. Cumque, dignissimos!</p>
+        </div>
+      </div>
+
+
+      <!--Project 2-->
+      <!-- <hr>
+      <div class="projects Shineproject">
+        <div>
+          <h1 class="ambitieproject projects">ShineProject</h1>
+        </div>
+        <div>
+          <video width="760" height="420" controls class="shineprojectvideo">
+            <source src="video/Shineproject.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+      </div> -->
+
+      <div id="contact"class="contact">
+        <div>
+          <h1>Contact</h1>
+        </div>
+
+        <div class="phone">
+          <h3>Phone number: -0683749212</h3>
+          <img src="" alt="">
+        </div>
+
+        <div class="email">
+          <h3>Phone number: -0683749212</h3>
+          <img src="" alt="">
+        </div>
+      </div>
+
+
+      <button id="switch-lang">Switch Language</button>
+
+      <h1><span lang="en">Hello</span> <span lang="es">Hola</span></h1>
+
+      <p lang="en">I really enjoy coding.</p>
+
+      <p lang="es">Me gusta mucho la codificación.</p>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script rel="javascript" src="myscript.js"></script>
+  </body>
+</html>
