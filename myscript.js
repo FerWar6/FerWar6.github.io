@@ -57,52 +57,52 @@ boxes.forEach((box) => {
 
 // language change
 
-        // function changeLanguage(lang) {
-        //   location.hash = lang;
-        //   location.reload();
-        // }
+        function changeLanguage(lang) {
+          location.hash = lang;
+          location.reload();
+        }
 
-        // var language = {
-        //   eng: {
-        //     welcome: "Who am I?"
-        //   },
-        //   eng: {
-        //     whoAmIContent: "English"
-        //   },
-        //   nl: {
-        //     welcome: "Wie ben ik?"
-        //   },
-        //   nl: {
-        //     whoAmIContent: "Nederlands"
-        //   },
-        // };
+        var language = {
+          eng: {
+            welcome: "Who am I?"
+          },
+          eng: {
+            whoAmIContent: "English"
+          },
+          nl: {
+            welcome: "Wie ben ik?"
+          },
+          nl: {
+            whoAmIContent: "Nederlands"
+          },
+        };
       
-        // // Check if a hash value exists in the URL
-        // if (window.location.hash) {
+        // Check if a hash value exists in the URL
+        if (window.location.hash) {
       
-        //   // Set the content of the webpage 
-        //   // depending on the hash value
-        //   if (window.location.hash == "#nl") {
-        //     whoAmI.textContent =
-        //       language.nl.welcome;
+          // Set the content of the webpage 
+          // depending on the hash value
+          if (window.location.hash == "#nl") {
+            whoAmI.textContent =
+              language.nl.welcome;
 
-        //     whoAmIContent.textContent =
-        //       language.nl.whoAmIContent;
-        //   }
-        //   else if (window.location.hash == "#eng") {
-        //     whoAmI.textContent =
-        //       language.eng.welcome;
+            whoAmIContent.textContent =
+              language.nl.whoAmIContent;
+          }
+          else if (window.location.hash == "#eng") {
+            whoAmI.textContent =
+              language.eng.welcome;
 
-        //     whoAmIContent.textContent =
-        //       language.eng.whoAmIContent;
-        //   }
-        // }
+            whoAmIContent.textContent =
+              language.eng.whoAmIContent;
+          }
+        }
 
 
 
-        // $('[lang="es"]').hide();
+        $('[lang="es"]').hide();
 
-        // $('#switch-lang').click(function() {
-        //   $('[lang="es"]').toggle();
-        //   $('[lang="en"]').toggle();
-        // });
+        $('#switch-lang').click(function() {
+          $('[lang="es"]').toggle();
+          $('[lang="en"]').toggle();
+        });

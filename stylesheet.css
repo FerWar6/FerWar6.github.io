@@ -18,6 +18,7 @@
 }
 body {
     background-color: rgb(174, 174, 174) !important;
+
    }
 
 
@@ -38,15 +39,6 @@ p {
     display: block;
 }
 
-@keyframes Opacity { 
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
 
 .myPortfolio {
     text-align: center;
@@ -57,13 +49,13 @@ p {
     width: 35%;
     margin:auto;
     letter-spacing: 4px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Courier New', monospace;
     text-size-adjust: 12px ;
     position: absolute;
     top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: Opacity 2s ;
+    
 }
 
 .Portfolio{
@@ -79,6 +71,7 @@ p {
 h1 {
     text-align: center;
     font-family: 'Courier New', monospace;
+
 }
 
 .contact h1 {
@@ -87,8 +80,37 @@ h1 {
   font-size: 40px;
 }
 
+.contact {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+.phone {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.phone h3 {
+margin: auto;
+}
+
+.phone i{
+  margin-top: 7px;
+  float: left;
+
+}
+
+.email {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.email i{
+  float: left;
+  margin-top: 9px;
+}
+
 hr {
   padding-bottom: 2px;
+  font-family: 'Courier New', monospace;
 }
 
 .menubutton {
@@ -129,6 +151,8 @@ hr {
   border-style: solid;
   border-width: 0.01em;
   text-align: left;
+  font-family: 'Courier New', monospace;
+
 }
 
 .ambitietext2 {
@@ -141,6 +165,8 @@ hr {
   border-style: solid;
   border-width: 0.01em;
   display: inline-block;
+  font-family: 'Courier New', monospace;
+
 }
 .ambitietext2move {
   margin-left: 85px;
@@ -157,6 +183,11 @@ hr {
   padding-top: 7px;
 }
 
+.movetext3 {
+  padding-top: 350px;
+  padding-right: 60px;
+}
+
 .shineproject img {
   width: 50%;
   float: left;
@@ -169,6 +200,8 @@ hr {
 
 .shineproject h1{
   text-align: center;
+  font-family: 'Courier New', monospace;
+
 }
 
 .shinetext {
@@ -177,11 +210,19 @@ hr {
   border-width: 0.01em;
   text-align: left;
   width: 58%;
+  font-family: 'Courier New', monospace;
+
 }
 
 .shinetext2 {
   float: right;
-  width: 45%;
+  width: 38%;
+  font-family: 'Courier New', monospace;
+  border: #111;
+  border-style: solid;
+  border-width: 0.01em;
+  font-size: 27px;
+  
 }
 
 
@@ -256,3 +297,4 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
